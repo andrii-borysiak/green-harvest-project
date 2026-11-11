@@ -1,0 +1,135 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.header-container {
+  flex-shrink: 0;
+  flex-basis: 375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  fill: var(--white);
+}
+
+.header-menu-list {
+  display: none;
+}
+
+.navigation-menu-list {
+  display: none;
+}
+
+.header-shop-now-btn {
+  display: none;
+}
+
+.burger-menu-button {
+  padding: 6.5px 3.4px 2.5px 3.6px;
+  background-color: transparent;
+  border: none;
+  stroke: var(--white);
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    flex-basis: 768px;
+  }
+
+  .header-icon-logo-vector {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header-icon-logo-text {
+    width: 168px;
+    height: 15px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-container {
+    flex-basis: 1280px;
+  }
+
+  .header-icon-logo-vector {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header-icon-logo-text {
+    width: 187px;
+    height: 17px;
+  }
+
+  .header-logo {
+    column-gap: 9px;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .header-menu-list {
+    display: flex;
+    column-gap: 8px;
+  }
+
+  .header-menu-list-link {
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    border: 1px solid var(--white);
+    border-radius: 12px;
+    padding: 12px;
+    transition:
+      color 250ms ease-in,
+      background-color 250ms ease-in,
+      border-color 250ms ease-in;
+  }
+
+  .header-menu-list-link:hover,
+  .header-menu-list-link:focus {
+    background-color: var(--blush);
+    color: var(--chianti);
+    border-color: var(--blush);
+  }
+
+  .header-shop-now-btn {
+    display: block;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    background: var(--chianti);
+    transition:
+      color 250ms ease-in,
+      background-color 250ms ease-in;
+  }
+
+  .header-shop-now-btn:hover,
+  .header-shop-now-btn:focus {
+    color: var(--chianti);
+    background-color: var(--blush);
+  }
+
+  .burger-menu-button {
+    display: none;
+  }
+}

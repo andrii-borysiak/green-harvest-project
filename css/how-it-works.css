@@ -1,0 +1,149 @@
+.how-it-works-section {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.how-it-works-container {
+  margin: 0;
+  padding: 0;
+}
+
+.how-it-works-image-wrapper {
+  padding: 40px 20px;
+  background-color: var(--chianti);
+}
+
+.how-it-works-text-wrapper {
+  padding: 80px 20px;
+}
+
+.how-it-works-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.how-it-works-text {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+.ordering-instructions-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  counter-reset: ordering-instructions-counter;
+}
+
+.instructions-list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  counter-increment: ordering-instructions-counter;
+  border-radius: 15px;
+  padding: 12px 0 12px 24px;
+  background-color: var(--white);
+}
+
+.instructions-list-item:first-child {
+  padding-right: 27px;
+}
+
+.instructions-list-item:nth-child(2) {
+  padding-right: 59px;
+}
+
+.instructions-list-item:last-child {
+  padding-right: 24px;
+}
+
+.instructions-list-item:before {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 5px solid var(--blush);
+  background-color: var(--chianti);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  content: counter(ordering-instructions-counter);
+}
+
+.instruction-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: var(--grey);
+}
+
+.how-it-works-accent-black {
+  color: var(--black);
+}
+
+.how-it-works-image {
+  border-radius: 30px;
+}
+
+@media (min-width: 768px) {
+  .how-it-works-image-wrapper {
+    padding: 100px 64px;
+  }
+
+  .how-it-works-text-wrapper {
+    padding: 100px 164px;
+  }
+
+  .how-it-works-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .how-it-works-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 52px;
+  }
+
+  .ordering-instructions-list {
+    row-gap: 24px;
+  }
+
+  .instructions-list-item:first-child {
+    padding-right: 23px;
+  }
+
+  .instructions-list-item:nth-child(2) {
+    padding-right: 27px;
+  }
+
+  .instructions-list-item:before {
+    font-size: 20px;
+  }
+
+  .instruction-text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .how-it-works-container {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+  }
+
+  .how-it-works-image-wrapper,
+  .how-it-works-text-wrapper {
+    padding: 100px;
+  }
+}
