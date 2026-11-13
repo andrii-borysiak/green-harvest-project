@@ -29,15 +29,6 @@
   line-height: 1.42857;
 }
 
-.hero-image-wrapper {
-  width: 375px;
-  height: 372px;
-  background-image: image-set(
-    url('../images/hero/hero-image-mobile.jpg') type('image/jpeg') 1x,
-    url('../images/hero/hero-image-mobile@2x.jpg') type('image/jpeg') 2x
-  );
-}
-
 @media (min-width: 768px) {
   .hero-text-wrapper {
     padding: 120px 32px 52px;
@@ -52,15 +43,6 @@
     max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
-  }
-
-  .hero-image-wrapper {
-    width: 768px;
-    height: 536px;
-    background-image: image-set(
-      url('../images/hero/hero-image-tablet.jpg') type('image/jpeg') 1x,
-      url('../images/hero/hero-image-tablet@2x.jpg') type('image/jpeg') 2x
-    );
   }
 }
 
@@ -79,15 +61,5 @@
 
   .page-title {
     margin-bottom: 128px;
-  }
-
-  .hero-image-wrapper {
-    flex-shrink: 0;
-    width: 640px;
-    height: 796px;
-    background-image: image-set(
-      url('../images/hero/hero-image-desktop.jpg') type('image/jpeg') 1x,
-      url('../images/hero/hero-image-desktop@2x.jpg') type('image/jpeg') 2x
-    );
   }
 }
