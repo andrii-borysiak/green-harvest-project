@@ -41,6 +41,12 @@
   stroke: var(--white);
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .header {
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .header-container {
     flex-basis: 768px;

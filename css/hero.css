@@ -29,6 +29,16 @@
   line-height: 1.42857;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .page-title {
+    word-wrap: break-word;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-text-wrapper {
     padding: 120px 32px 52px;

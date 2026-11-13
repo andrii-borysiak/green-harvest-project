@@ -30,14 +30,17 @@
   background-color: var(--white);
 }
 
+.vegetables-list-image {
+  width: 280px;
+  height: 240px;
+  background-repeat: no-repeat;
+}
+
 .vegetables-list-image-eggplant {
   background-image: image-set(
     url('../images/vegetables/eggplant-mobile.png') 1x,
     url('../images/vegetables/eggplant-mobile@2x.png') 2x
   );
-  background-repeat: no-repeat;
-  width: 280px;
-  height: 240px;
 }
 
 .vegetables-list-image-leek {
@@ -45,9 +48,6 @@
     url('../images/vegetables/leek-mobile.png') 1x,
     url('../images/vegetables/leek-mobile@2x.png') 2x
   );
-  background-repeat: no-repeat;
-  width: 280px;
-  height: 240px;
 }
 
 .vegetables-list-image-mushrooms {
@@ -55,9 +55,6 @@
     url('../images/vegetables/mushrooms-mobile.png') 1x,
     url('../images/vegetables/mushrooms-mobile@2x.png') 2x
   );
-  background-repeat: no-repeat;
-  width: 280px;
-  height: 240px;
 }
 
 .vegetables-list-image-corn {
@@ -65,9 +62,6 @@
     url('../images/vegetables/corn-mobile.png') 1x,
     url('../images/vegetables/corn-mobile@2x.png') 2x
   );
-  background-repeat: no-repeat;
-  width: 280px;
-  height: 240px;
 }
 
 .vegetables-list-image-sweet-potatoes {
@@ -75,9 +69,6 @@
     url('../images/vegetables/sweet-potatoes-mobile.png') 1x,
     url('../images/vegetables/sweet-potatoes-mobile@2x.png') 2x
   );
-  background-repeat: no-repeat;
-  width: 280px;
-  height: 240px;
 }
 
 .vegetables-list-image-carrot {
@@ -85,9 +76,6 @@
     url('../images/vegetables/carrot-mobile.png') 1x,
     url('../images/vegetables/carrot-mobile@2x.png') 2x
   );
-  background-repeat: no-repeat;
-  width: 280px;
-  height: 240px;
 }
 
 .vegetables-list-title {
@@ -106,6 +94,23 @@
   font-size: 14px;
   line-height: 1.42857;
   color: var(--black);
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .vegetables-title {
+    word-wrap: break-word;
+  }
+
+  .vegetables-list-image-eggplant,
+  .vegetables-list-image-leek,
+  .vegetables-list-image-mushrooms,
+  .vegetables-list-image-corn,
+  .vegetables-list-image-sweet-potatoes,
+  .vegetables-list-image-carrot {
+    max-width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
 }
 
 @media (min-width: 768px) {

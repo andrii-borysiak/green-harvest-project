@@ -63,6 +63,12 @@
   color: var(--grey);
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .reviews-title {
+    word-wrap: break-word;
+  }
+}
+
 @media (min-width: 768px) {
   .reviews-title {
     margin-bottom: 24px;

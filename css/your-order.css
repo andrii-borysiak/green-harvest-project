@@ -152,6 +152,17 @@
   flex-wrap: wrap;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .order-socials-image {
+    max-width: 100%;
+  }
+
+  .order-form-submit-btn {
+    width: 100%;
+    padding: 16px 89px;
+  }
+}
+
 @media (min-width: 768px) {
   .your-order-title {
     margin-bottom: 24px;

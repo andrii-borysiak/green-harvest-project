@@ -94,6 +94,13 @@
   border-radius: 30px;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .how-it-works-image-wrapper,
+  .how-it-works-image {
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .how-it-works-image-wrapper {
     padding: 100px 64px;
