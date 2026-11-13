@@ -30,6 +30,66 @@
   background-color: var(--white);
 }
 
+.vegetables-list-image-eggplant {
+  background-image: image-set(
+    url('../images/vegetables/eggplant-mobile.png') 1x,
+    url('../images/vegetables/eggplant-mobile@2x.png') 2x
+  );
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 240px;
+}
+
+.vegetables-list-image-leek {
+  background-image: image-set(
+    url('../images/vegetables/leek-mobile.png') 1x,
+    url('../images/vegetables/leek-mobile@2x.png') 2x
+  );
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 240px;
+}
+
+.vegetables-list-image-mushrooms {
+  background-image: image-set(
+    url('../images/vegetables/mushrooms-mobile.png') 1x,
+    url('../images/vegetables/mushrooms-mobile@2x.png') 2x
+  );
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 240px;
+}
+
+.vegetables-list-image-corn {
+  background-image: image-set(
+    url('../images/vegetables/corn-mobile.png') 1x,
+    url('../images/vegetables/corn-mobile@2x.png') 2x
+  );
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 240px;
+}
+
+.vegetables-list-image-sweet-potatoes {
+  background-image: image-set(
+    url('../images/vegetables/sweet-potatoes-mobile.png') 1x,
+    url('../images/vegetables/sweet-potatoes-mobile@2x.png') 2x
+  );
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 240px;
+}
+
+.vegetables-list-image-carrot {
+  background-image: image-set(
+    url('../images/vegetables/carrot-mobile.png') 1x,
+    url('../images/vegetables/carrot-mobile@2x.png') 2x
+  );
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 240px;
+}
+
 .vegetables-list-title {
   margin-bottom: 12px;
   font-weight: 600;
@@ -84,6 +144,48 @@
     font-size: 16px;
     line-height: 1.25;
   }
+
+  .vegetables-list-image-eggplant {
+    background-image: image-set(
+      url('../images/vegetables/eggplant-tablet.png') 1x,
+      url('../images/vegetables/eggplant-tablet@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-leek {
+    background-image: image-set(
+      url('../images/vegetables/leek-tablet.png') 1x,
+      url('../images/vegetables/leek-tablet@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-mushrooms {
+    background-image: image-set(
+      url('../images/vegetables/mushrooms-tablet.png') 1x,
+      url('../images/vegetables/mushrooms-tablet@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-corn {
+    background-image: image-set(
+      url('../images/vegetables/corn-tablet.png') 1x,
+      url('../images/vegetables/corn-tablet@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-sweet-potatoes {
+    background-image: image-set(
+      url('../images/vegetables/sweet-potatoes-tablet.png') 1x,
+      url('../images/vegetables/sweet-potatoes-tablet@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-carrot {
+    background-image: image-set(
+      url('../images/vegetables/carrot-tablet.png') 1x,
+      url('../images/vegetables/carrot-tablet@2x.png') 2x
+    );
+  }
 }
 
 @media (min-width: 1280px) {
@@ -95,5 +197,47 @@
 
   .vegetables-list-price {
     margin-bottom: 8px;
+  }
+
+  .vegetables-list-image-eggplant {
+    background-image: image-set(
+      url('../images/vegetables/eggplant-desktop.png') 1x,
+      url('../images/vegetables/eggplant-desktop@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-leek {
+    background-image: image-set(
+      url('../images/vegetables/leek-desktop.png') 1x,
+      url('../images/vegetables/leek-desktop@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-mushrooms {
+    background-image: image-set(
+      url('../images/vegetables/mushrooms-desktop.png') 1x,
+      url('../images/vegetables/mushrooms-desktop@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-corn {
+    background-image: image-set(
+      url('../images/vegetables/corn-desktop.png') 1x,
+      url('../images/vegetables/corn-desktop@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-sweet-potatoes {
+    background-image: image-set(
+      url('../images/vegetables/sweet-potatoes-desktop.png') 1x,
+      url('../images/vegetables/sweet-potatoes-desktop@2x.png') 2x
+    );
+  }
+
+  .vegetables-list-image-carrot {
+    background-image: image-set(
+      url('../images/vegetables/carrot-desktop.png') 1x,
+      url('../images/vegetables/carrot-desktop@2x.png') 2x
+    );
   }
 }
