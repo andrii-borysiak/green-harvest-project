@@ -6,7 +6,7 @@
   padding: 0 20px;
 }
 
-.advertisement-title {
+.advertisement-text {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.08333;
@@ -28,7 +28,7 @@
     padding: 0 32px;
   }
 
-  .advertisement-title {
+  .advertisement-text {
     font-size: 64px;
     line-height: 1;
   }
@@ -46,7 +46,7 @@
     padding: 0 116px;
   }
 
-  .advertisement-title {
+  .advertisement-text {
     width: 1048px;
     font-size: 76px;
   }
