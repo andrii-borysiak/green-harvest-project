@@ -146,4 +146,8 @@
   .how-it-works-text-wrapper {
     padding: 100px;
   }
+
+  .how-it-works-text {
+    margin-bottom: 104px;
+  }
 }
